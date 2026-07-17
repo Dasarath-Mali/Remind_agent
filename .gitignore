@@ -1,0 +1,28 @@
+# Secrets / personal config — NEVER commit these
+.env
+credentials.json
+token.json
+
+# Runtime-generated data
+agent_state.db
+agent.log
+agent.err.log
+*.db
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+venv/
+.venv/
+env/
+ENV/
+
+# Editor / OS cruft
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
